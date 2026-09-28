@@ -14,7 +14,7 @@ class AnchorForMoovmentService:
         self.template = cv2.imread(anchor_path, cv2.IMREAD_GRAYSCALE)
         self.th, self.tw = self.template.shape[:2]
         self.threshold = 0.43
-        self.stuck_limit = 60
+        self.stuck_limit = 300
         self.hex_color_orange = "#d3ce00"
         self.hex_color_blue = "#0a64b1"
 
