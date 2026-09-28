@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mss
+pywin32
+ultralytics
+PySide6
+requests
+websocket-client

@@ -1,0 +1,32 @@
+WINDOW_TITLE = "Albion Online Client"
+
+RADAR_WS_URL = "ws://localhost:5001/ws"
+RADAR_BINARY_PATH = "./OpenRadar.exe"
+
+TELEGRAM_TOKEN = ""
+CHAT_ID = ""
+
+ANCHOR_THRESHOLD = 0.43
+ANCHOR_STUCK_LIMIT = 60
+
+GATHERING_TIMEOUT = (14, 16)
+FISHING_TIMEOUT = (180, 260)
+PIE_DURATION_SECONDS = 1810
+
+PLAYER_DANGER_RADIUS = 60
+RESOURCE_MIN_TIER = 3
+ZONE_EXIT_THRESHOLD = 0.60
+
+VK_MOUNT = 0x5A
+VK_INVIS = 0x32
+VK_PIE = 0x45
+
+CHAT_RESPONSES = [
+    "ok", "hey", "gl", "lol", "nice", "hm", ":)", "gg",
+    "k", "sup", "np", "sure", "cool", "ty",
+]
+CHAT_RESPONSE_CHANCE = 0.65
+CHAT_RESPONSE_DELAY = (3.0, 9.0)
+
+ESCAPE_INVIS_DURATION = 30.0
+ESCAPE_MAX_SEARCH_TIME = 120.0
